@@ -4,11 +4,6 @@ exports[`Render components render homePage 1`] = `
 <div
   className="pages"
 >
-  <h1
-    className="area"
-  >
-     Europe
-  </h1>
   <form
     className="form"
   >
@@ -37,7 +32,7 @@ exports[`Render components render homePage 1`] = `
         <input
           className="input-area"
           onChange={[Function]}
-          placeholder="Search Here"
+          placeholder="Enter your country"
           type="text"
           value=""
         />
@@ -63,9 +58,9 @@ exports[`Render components render navbar 1`] = `
       onClick={[Function]}
     />
     <h1
-      className="title1"
+      className="title1 dynamic-text-shadow"
     >
-       COVID-STAT
+       COVID-STATISTICS 
     </h1>
     <div
       className="icons"
@@ -110,13 +105,6 @@ exports[`Render components render navbar 1`] = `
         />
       </svg>
     </div>
-  </div>
-  <div
-    className="navItems1"
-  >
-    <h1>
-      COVID-19
-    </h1>
   </div>
 </nav>
 `;

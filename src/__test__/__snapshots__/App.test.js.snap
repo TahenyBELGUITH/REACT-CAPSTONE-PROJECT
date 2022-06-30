@@ -16,9 +16,9 @@ Object {
             href="/"
           />
           <h1
-            class="title1"
+            class="title1 dynamic-text-shadow"
           >
-             COVID-STAT
+             COVID-STATISTICS 
           </h1>
           <div
             class="icons"
@@ -54,22 +54,10 @@ Object {
             </svg>
           </div>
         </div>
-        <div
-          class="navItems1"
-        >
-          <h1>
-            COVID-19
-          </h1>
-        </div>
       </nav>
       <div
         class="pages"
       >
-        <h1
-          class="area"
-        >
-           Europe
-        </h1>
         <form
           class="form"
         >
@@ -92,7 +80,7 @@ Object {
             <div>
               <input
                 class="input-area"
-                placeholder="Search Here"
+                placeholder="Enter your country"
                 type="text"
                 value=""
               />
@@ -117,9 +105,9 @@ Object {
           href="/"
         />
         <h1
-          class="title1"
+          class="title1 dynamic-text-shadow"
         >
-           COVID-STAT
+           COVID-STATISTICS 
         </h1>
         <div
           class="icons"
@@ -155,22 +143,10 @@ Object {
           </svg>
         </div>
       </div>
-      <div
-        class="navItems1"
-      >
-        <h1>
-          COVID-19
-        </h1>
-      </div>
     </nav>
     <div
       class="pages"
     >
-      <h1
-        class="area"
-      >
-         Europe
-      </h1>
       <form
         class="form"
       >
@@ -193,7 +169,7 @@ Object {
           <div>
             <input
               class="input-area"
-              placeholder="Search Here"
+              placeholder="Enter your country"
               type="text"
               value=""
             />
