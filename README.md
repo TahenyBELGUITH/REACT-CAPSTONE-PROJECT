@@ -1,56 +1,74 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
-> Description the project.
-
+# React-Capstone-Project
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Javascript-CSS
+- React - Redux
+- npm
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]()
+
+## Video Presentation
+[Link to loom video]()
 
 
-## Getting Started
+### Prerequisites
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Have a working and updated browser.
+- Have a local version control like **git** install on your computer.
+- Have an account and sign in on GitHub, as online/remote version control system.
+- Download waves to check project accessibilty.
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
 
-### Setup
+# Setup
+
+- git clone https://github.com/TahenyBELGUITH/REACT-CAPSTONE-PROJECT.git
 
 ### Install
+
+- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
+
+- Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
+
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 
 ### Usage
 
 ### Run tests
 
+- **npx hint .** : To test html codes
+- **npx stylelint "**/\*.{css,scss}"\*\* : To test css code
+- **npx eslint .** : To test Eslint Report
+- **npm run test** : To run the tests.
+
 ### Deployment
 
+- Go to settings
+- Click on pages
+- Choose your source
+- Choose folder
+- choose a theme(optional)
+- Enforce HTTPS
+- And then save
 
 
 ## Authors
 
-👤 **Author1**
+## Authors
+👩 **Taheny Belguith**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@TahenyBELGUITH](https://github.com/TahenyBELGUITH)
+- Twitter: [@BelguithTaheny](https://twitter.com/BelguithTaheny)
+- LinkedIn: [belguith taheny](https://www.linkedin.com/in/belguith-taheny-47b93a162/)
 
 ## 🤝 Contributing
 
@@ -64,9 +82,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- To Nice people in the Microverse community for their continious help and support
+- To the BEHANCE template designer : [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+
 
 ## 📝 License
 
