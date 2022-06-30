@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 2px 6px 2px;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.title1 {
+  font-size: 20px;
+}
+
+.input-area {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  outline: none;
+}
+
+svg {
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.navItems {
+  background-color: #5788e5;
+  padding: 24px;
+  color: #e6e6f6;
+}
+
+.navItems1 {
+  background-color: #4369b2;
+  padding: 24px;
+  color: #e6e6f6;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.pages {
+  background-color: #3d60a2;
+}
+
+.area {
+  text-align: center;
+  color: #e6e6f6;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px, rgba(0, 0, 0, 0.24) 0 1px 2px;
+}
+
+.list-country {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr;
+  gap: 7px;
+  margin: auto;
+  padding: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px, rgba(0, 0, 0, 0.24) 0 1px 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-details {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  padding: 2rem;
+  box-shadow: rgba(6, 24, 44, 0.4) 0 0 0 2px, rgba(6, 24, 44, 0.65) 0 4px 6px -1px, rgba(255, 255, 255, 0.08) 0 1px 0 inset;
+}
+
+.list-country a:nth-child(4n),
+.list-country a:nth-child(4n + 1) {
+  background-color: #5687e4;
+  color: #fff;
+  box-shadow: rgba(6, 24, 44, 0.4) 0 0 0 2px, rgba(6, 24, 44, 0.65) 0 4px 6px -1px, rgba(255, 255, 255, 0.08) 0 1px 0 inset;
+}
+
+.national-flag {
+  width: 60px;
+  height: 40px;
+}
+
+.name {
+  font-size: 20px;
+  margin: 0;
+}
+
+.population {
+  font-size: 20px;
+}
+
+.Container {
+  background-color: #3d60a2;
+  color: #fff;
+}
+
+.continent {
+  padding: 3rem;
+}
+
+.continent h1 {
+  margin-bottom: 12px;
+}
+
+.continent,
+.today,
+.total {
+  text-align: center;
+  list-style: none;
+}
+
+.data {
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px, rgba(0, 0, 0, 0.24) 0 1px 2px;
+  width: 60%;
+  margin: auto;
+}
+
+.Arrow {
+  color: #fff;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .list-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .list-country {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
