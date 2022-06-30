@@ -16,7 +16,7 @@ const HomePage = () => {
     }
   }, [countryStore.length, dispatch]);
 
-  let continCovid = countryStore.filter((item) => item.continent !== "Europe");
+  let continCovid = countryStore.filter((item) => item.continent !== 'Europe');
   const location = useLocation();
   const query = new URLSearchParams(location.search);
   const search = query.get("search") || "";
