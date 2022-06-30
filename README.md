@@ -10,10 +10,10 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link]()
+[Live Demo Link](https://reliable-zabaione-7d9d45.netlify.app/)
 
 ## Video Presentation
-[Link to loom video]()
+[Link to loom video](https://www.loom.com/share/baacad4f36b04cf2b8fd4a512ed20afa)
 
 
 ### Prerequisites
